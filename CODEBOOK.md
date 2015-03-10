@@ -31,6 +31,7 @@ std(): Standard deviation
 
 ------------------
 Ways to get the clean data:
+---------
 library(tidyr)
 #first to read the files and stroe them into the computer
 
