@@ -1,0 +1,6 @@
+library(dplyr)
+table1<-group_by(datafinal,Subject,Label)
+table2<-aggregate(table1[,1:66], by=list(table1$Subject,table1$Label),FUN=mean,na.rm=TRUE)
+names(table2)[1:2]<-c("Subject","Label")
+nametable<-gsub("-"," ",names(table2))
+write.table(table2,"tidydata.txt",row.names=FALSE)
