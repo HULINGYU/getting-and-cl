@@ -1,4 +1,4 @@
-# getting-and-cl
+# getting-and-cleaning
 This is a repository with the answers to the coursera Getting and cleaning data course project,there are totally four files in this repository:
 README.md is an introduction to the repository.
 DATACODE.md is a file including the name of all the data and variables in the Rscripts, changes and explanations are also included in this file.
